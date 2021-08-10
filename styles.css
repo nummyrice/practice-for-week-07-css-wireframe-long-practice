@@ -1,0 +1,16 @@
+.upper__left {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+}
+
+.sign-in {
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: fit-content;
+}
+
+#root {
+  margin: 100px auto;
+  width: fit-content;
+}
