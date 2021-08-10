@@ -1,26 +1,4 @@
-.upper__left {
-  /* position: fixed; */
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  left: 40px;
 
-}
-/*
-.nav__upper {
-  display: inline-block;
-} */
-
-.sign-in {
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  right: -600px;
-  color: green;
-  text-decoration: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
 
 .nav__lower a {
   margin: 25px 50px 75px 100px;
@@ -30,6 +8,37 @@
   text-decoration: none;
 }
 
+/* .header {
+  position: relative;
+} */
+
+.nav__upper {
+  /* display: inline-block; */
+  /* right: 100px; */
+  position: relative;
+}
+
+.upper__right {
+  position: absolute;
+  right: 0px;
+}
+
+.upper__left { /*home icon*/
+  /* position: fixed; */
+  width: 20px;
+  height: 20px;
+}
+
+.sign-in {
+  margin-left: auto;
+  margin-right: auto;
+  /* position: relative; */
+  /* right: -600px; */
+  color: green;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .get-started {
   color: green;
   text-decoration: none;
@@ -37,12 +46,17 @@
   border: 1px solid green;
   border-radius: 5px;
   padding: 2px 10px 3px 10px;
-  position: relative;
-  right: -610px;
+  /* position: relative; */
+  /* right: -610px; */
 }
 
 .header {
   /* display: inline-block; */
   margin: 100px auto;
   width: fit-content;
+}
+
+h1 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
 }
